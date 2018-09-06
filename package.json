@@ -1,0 +1,21 @@
+{
+  "name": "excel-ps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron src/index.js",
+    "package": "build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.8",
+    "electron-builder": "^20.28.4"
+  },
+  "build": {
+    "asar":"false",
+    "appId": "com.rupesh.excel"
+  }
+}

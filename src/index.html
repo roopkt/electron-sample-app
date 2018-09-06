@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>Electron Course</title>
+    <link rel="stylesheet" src="./style.css">
+</head>
+
+<body>
+    <h1>
+        You are running Electron version: <br />
+        <span id="version"></span>
+    </h1>
+    <div>
+        <label id="msg" style="color:green; font-weight: bold"></label>
+    </div>
+    <button id="open">Open Excel</button>
+    <button id="close">Close Excel</button>
+    <script>
+        require('./renderer');
+    </script>
+</body>
+
+</html>
